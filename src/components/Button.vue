@@ -1,15 +1,22 @@
 <template>
-    <button>Add Task</button>
+    <button @click="onClick()">Add Task</button>
 </template>
 
 <script>
+
 export default {
-    name: 'Button'
+    name: 'Button',
+    methods: {
+        onClick() {
+            console.log('clicked')
+        }
+    }
 }
 
 </script>
 
 <style scoped>
+
 button {
     background-color: green;
     color: white;
