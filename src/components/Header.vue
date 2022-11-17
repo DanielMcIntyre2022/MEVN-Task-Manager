@@ -1,12 +1,18 @@
 <template>
     <header>
         <h1>Task Manager</h1>
+        <Button/>
     </header>
 </template>
 
 <script>
+import Button from '../components/Button';
+
 export default {
-    name: 'Header'
+    name: 'Header', 
+    components: {
+        Button
+    }
 }
 </script>
 
