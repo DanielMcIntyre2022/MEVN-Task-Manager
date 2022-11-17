@@ -1,14 +1,17 @@
 <template>
   <Header />
+  <AddTask/>
 </template>
 
 <script>
 import Header from './components/Header';
+import AddTask from './components/AddTask';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    AddTask
   }
 }
 </script>
